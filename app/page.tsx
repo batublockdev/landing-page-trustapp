@@ -37,21 +37,32 @@ export default function LandingPage() {
         </p>
 
         {/* DOWNLOAD BUTTONS */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a
-            href="https://expo.dev/accounts/batublockdev/projects/mobile/builds/bf1634c6-08a3-4ec2-8d3a-2fc7d6b2f31c"
-            className="px-6 py-3 rounded-2xl bg-green-500 text-black font-semibold hover:bg-green-400 transition text-lg"
-          >
-            Descargar APK
-          </a>
+       <div className="flex flex-col sm:flex-row gap-4 justify-center">
+  <a
+    href="https://expo.dev/accounts/batublockdev/projects/mobile/builds/bf1634c6-08a3-4ec2-8d3a-2fc7d6b2f31c"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-6 py-3 rounded-2xl bg-green-500 text-black font-semibold hover:bg-green-400 transition text-lg"
+  >
+    Descargar APK
+  </a>
 
-          <button
-            disabled
-            className="px-6 py-3 rounded-2xl bg-gray-700 text-gray-400 font-semibold text-lg cursor-not-allowed"
-          >
-            App Store
-          </button>
-        </div>
+  <a
+    href="https://play.google.com/store/apps/details?id=com.batublockdev.mobile"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-6 py-3 rounded-2xl bg-emerald-400 text-black font-semibold hover:bg-emerald-300 transition text-lg"
+  >
+    Testea la app en Android
+  </a>
+
+  <button
+    disabled
+    className="px-6 py-3 rounded-2xl bg-gray-700 text-gray-400 font-semibold text-lg cursor-not-allowed"
+  >
+    App Store
+  </button>
+</div>
 
         <p className="mt-4 text-sm text-gray-400">
           Pronto disponible en las tiendas oficiales
