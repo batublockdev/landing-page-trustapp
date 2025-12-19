@@ -2,9 +2,10 @@
 
 import React, { useState } from "react";
 import CreateTestAccountModal from "./CreateTestAccountModal";
-
+import EmailModal from './saveEmailsModal'
 export default function LandingPage() {
   const [open, setOpen] = useState(false);
+  const [openEmail, setOpenEmail] = useState(false);
 
   return (
     <div className="min-h-screen bg-black text-white flex flex-col items-center px-6">
@@ -22,7 +23,7 @@ export default function LandingPage() {
           Cuenta nueva de prueba
         </button>
 
-        <CreateTestAccountModal open={open} onClose={() => setOpen(false)} />
+        <CreateTestAccountModal open={openEmail} onClose={() => setOpenEmail(false)} />
       </header>
 
       {/* ================= HERO ================= */}
@@ -39,15 +40,15 @@ export default function LandingPage() {
         {/* DOWNLOAD BUTTONS */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
 
-          <a
-            href="https://play.google.com/store/apps/details?id=com.batublockdev.mobile"
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            onClick={() => setOpenEmail(true)}
+
             className="flex items-center gap-3 px-6 py-3 rounded-2xl bg-emerald-400 text-black font-semibold hover:bg-emerald-300 transition text-lg"
           >
             <img src="/google-play.svg" alt="Google Play" className="w-6 h-6" />
             Play Store
-          </a>
+          </button>
+
 
           <button
             disabled
@@ -56,6 +57,7 @@ export default function LandingPage() {
             <img src="/apple.svg" alt="App Store" className="w-6 h-6 opacity-50" />
             App Store
           </button>
+          <EmailModal isOpen={openEmail} onClose={() => setOpenEmail(false)} />
         </div>
 
         <p className="mt-4 text-sm text-gray-400">
