@@ -97,13 +97,13 @@ export async function fund(PubKey) {
         .addOperation(Operation.payment({
             destination: PubKey,
             asset: assetTRUST,
-            amount: "300000000",
+            amount: "3000000",
             source: sourceKeypairAdmin.publicKey()
         }))
         .addOperation(Operation.payment({
             destination: PubKey,
             asset: assetUSD,
-            amount: "1000000000",
+            amount: "10000000",
             source: sourceKeypairAdmin.publicKey()
         }))
         .setTimeout(60)
