@@ -64,14 +64,12 @@ export default function LandingPage() {
           Pronto disponible en las tiendas oficiales
         </p>
       </section>
-      <p className="mt-4 text-sm text-gray-400">
-        Pronto disponible en las tiendas oficiales
-      </p>
+
 
       <div className="mt-3 flex items-center gap-4">
         {/* X (Twitter) */}
         <a
-          href="https://x.com/tu_usuario"
+          href="https://x.com/trustapp1xt"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-400 hover:text-white transition"
@@ -89,7 +87,7 @@ export default function LandingPage() {
 
         {/* Instagram */}
         <a
-          href="https://instagram.com/tu_usuario"
+          href="https://instagram.com/trustapp1xt"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-400 hover:text-white transition"
