@@ -51,7 +51,8 @@ export default function LandingPage() {
 
 
           <button
-            disabled
+            onClick={() => setOpenEmail(true)}
+
             className="flex items-center gap-3 px-6 py-3 rounded-2xl bg-gray-700 text-gray-400 font-semibold text-lg cursor-not-allowed"
           >
             <img src="/apple.svg" alt="App Store" className="w-6 h-6 opacity-50" />
