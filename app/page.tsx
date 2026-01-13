@@ -64,6 +64,48 @@ export default function LandingPage() {
           Pronto disponible en las tiendas oficiales
         </p>
       </section>
+      <p className="mt-4 text-sm text-gray-400">
+        Pronto disponible en las tiendas oficiales
+      </p>
+
+      <div className="mt-3 flex items-center gap-4">
+        {/* X (Twitter) */}
+        <a
+          href="https://x.com/tu_usuario"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gray-400 hover:text-white transition"
+          aria-label="X"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            className="h-5 w-5"
+          >
+            <path d="M18.244 2H21l-6.52 7.455L22 22h-6.828l-5.34-6.97L3.77 22H1l7.02-8.03L2 2h7l4.83 6.3L18.244 2z" />
+          </svg>
+        </a>
+
+        {/* Instagram */}
+        <a
+          href="https://instagram.com/tu_usuario"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gray-400 hover:text-white transition"
+          aria-label="Instagram"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            className="h-5 w-5"
+          >
+            <path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.2.06 1.9.25 2.3.42a4.7 4.7 0 011.7 1.1 4.7 4.7 0 011.1 1.7c.17.4.36 1.1.42 2.3.07 1.3.07 1.7.07 4.9s0 3.6-.07 4.9c-.06 1.2-.25 1.9-.42 2.3a4.7 4.7 0 01-1.1 1.7 4.7 4.7 0 01-1.7 1.1c-.4.17-1.1.36-2.3.42-1.3.07-1.7.07-4.9.07s-3.6 0-4.9-.07c-1.2-.06-1.9-.25-2.3-.42a4.7 4.7 0 01-1.7-1.1 4.7 4.7 0 01-1.1-1.7c-.17-.4-.36-1.1-.42-2.3C2.2 15.6 2.2 15.2 2.2 12s0-3.6.07-4.9c.06-1.2.25-1.9.42-2.3a4.7 4.7 0 011.1-1.7 4.7 4.7 0 011.7-1.1c.4-.17 1.1-.36 2.3-.42C8.4 2.2 8.8 2.2 12 2.2zM12 6.4a5.6 5.6 0 100 11.2 5.6 5.6 0 000-11.2zm0 9.2a3.6 3.6 0 110-7.2 3.6 3.6 0 010 7.2zm5.8-9.8a1.3 1.3 0 11-2.6 0 1.3 1.3 0 012.6 0z" />
+          </svg>
+        </a>
+      </div>
+
 
       {/* ================= SCREENSHOTS ================= */}
       {/* ================= SCREENSHOTS ================= */}

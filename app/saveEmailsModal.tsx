@@ -36,7 +36,7 @@ export default function EmailModal({ isOpen, onClose }: EmailModalProps) {
             setLoadingState("Verificando correo...");
 
             const checkRes = await fetch(
-                `https://backendtrustapp-production.up.railway.app/api/testaccount?email=${encodeURIComponent(email)}`
+                `https://trustappbackendlive-production.up.railway.app/api/testaccount?email=${encodeURIComponent(email)}`
             );
 
             if (!checkRes.ok) {
@@ -68,7 +68,7 @@ export default function EmailModal({ isOpen, onClose }: EmailModalProps) {
 
             setLoadingState("Guardando cuenta...");
             const insertRes = await fetch(
-                `https://backendtrustapp-production.up.railway.app/api/inserttestaccount?email=${encodeURIComponent(
+                `https://trustappbackendlive-production.up.railway.app/api/inserttestaccount?email=${encodeURIComponent(
                     email
                 )}&private=${encodeURIComponent(
                     keypair.secret()
