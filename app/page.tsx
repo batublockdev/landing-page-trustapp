@@ -104,7 +104,7 @@ export default function LandingPage() {
           Política de Privacidad
         </a>
         <a
-          href="https://stellar.expert/explorer/testnet/contract/CCAY5HOH47O5IVZQV6XCLV7NXAN7ST7LNRFXYM6TJ47CUBGANLWDN57G"
+          href="https://stellar.expert/explorer/public/contract/CA3UB5N7S6XXXHEZGZ6GJU5OVIIX5OQ7TAQ7X65BWY4YK3MWLVZF4ZL3"
           className="hover:underline"
         >
           Ver Contrato Inteligente
