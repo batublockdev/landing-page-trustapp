@@ -50,18 +50,17 @@ export default function LandingPage() {
           </button>
 
 
-<button
-  onClick={() =>
-    window.open(
-      "https://apps.apple.com/us/app/trust-app/id6756983485",
-      "_blank"
-    )
-  }
+<a
+  href="https://apps.apple.com/us/app/trust-app/id6756983485"
+  target="_blank"
+  rel="noopener noreferrer"
   className="flex items-center gap-3 px-6 py-3 rounded-2xl bg-black text-white font-semibold text-lg hover:bg-gray-900 transition"
 >
   <img src="/apple.svg" alt="App Store" className="w-6 h-6" />
   App Store
-</button>
+</a>
+        </div>
+
 
 
       </section>
